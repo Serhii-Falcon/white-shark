@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lab - Forms (01)</title>
 </head>
 <body>
-    
+    <form>
+        <div>
+            <label for="user_name">User name</label><br>
+            <input type="text" id="user_name" name="user_name" required minlength="2">
+        </div>
+        <div>
+            <label for="">Password</label><br>
+            <input type="password" id="password" name="password" required minlength="2">
+        </div>
+        <button type="submit">Log In</button>
+    </form>
 </body>
 </html>
